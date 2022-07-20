@@ -41,11 +41,11 @@
     }
     
     .cl-wrapper {
-        margin-bottom: 7rem;
+        margin-bottom: 2rem;
     }
     
     .img-one {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
     
     .cr-wrapper {
@@ -56,14 +56,16 @@
     .cr-heading {
         font-family: 'Poppins', sans-serif;
         color: #fff;
-        width: 30%;
-        margin-bottom: 2rem;
+        width: 100%;
+        margin-bottom: 0rem;
+        text-align: center;
     }
     
     .cr-paragraph {
         font-family: 'Open Sans', sans-serif;
-        width: 40%;
+        width: 100%;
         color: #ebe6e6;
+        text-align: center;
     }
     
     button {
@@ -77,6 +79,8 @@
         font-family: inherit;
         color: hsl(257, 40%, 49%);
         box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+        margin: auto;
+  
     }
     
     button:hover {
@@ -86,9 +90,16 @@
         box-shadow: 20px 20px 50px grey;
     }
     
+    .cr-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
     .cr-icon {
         margin-top: 6rem;
-        margin-left: 25rem;
+        text-align: center;
+        margin-bottom: 2rem; 
     }
     
     span {
@@ -118,8 +129,10 @@
             }
         }
         @media (min-width:1440px) {
-            main {
+            .wrapper {
                 display: flex;
                 flex-direction: row;
             }
+            
         } 
+}
